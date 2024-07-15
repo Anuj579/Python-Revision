@@ -4,8 +4,11 @@ class Number:
 
     def __add__(self,num):
         return self.n + num.n
+    def __sub__(self,num):
+        return self.n - num.n
     
 a = Number(2)
 b = Number(4)
 
 print(a+b)
+print(a-b)
